@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .u1 {
+            width: 40%;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 0 0px #ccc;
+            position: relative;
+        }
+
+        li {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            line-height: 1.5;
+            border-bottom: 1px solid #ccc;
+        }
+
+        i {
+            display: block;
+            border-top: 2px solid;
+            border-right: 2px solid;
+            width: 7px;
+            height: 7px;
+            border-color: #ccc;
+            transform: rotate(130deg);
+            margin-right: 10px;
+            margin-top: 5px;
+            margin-left: 10px;
+            cursor: pointer
+                /* margin: 50px auto auto 100px; */
+        }
+
+        .log_fill {
+            display: flex;
+            justify-content: center;
+        }
+
+        span {
+            cursor: pointer;
+        }
+
+        .u2 {
+            display: none;
+        }
+
+        .u22 {}
+
+        b {
+            font: 12px;
+            color: #ccc;
+            padding-right: 10px;
+            background: pink;
+            padding-left: 10px;
+        }
+
+        .log1 {
+            border-bottom: 1px solid #ccc;
+        }
+
+        .u23 {
+            display: none;
+        }
+
+        .u22 {
+            display: none;
+        }
+
+        .log1 {
+            display: none;
+            text-align: center;
+        }
+
+        .log1 i {
+            display: inline-block;
+        }
+        b{
+            cursor: pointer;
+        }
+        #tan {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            /* position: fixed; */
+            top: 50%;
+            left: 50%;
+            background-color:pink;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            display: none;
+            text-align: center;
+            line-height: 60px;
+            /* overflow: hidden; */
+        }
+        .yx{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #909;
+            border-radius: 50%;
+            background-color: pink;
+            margin: 0 auto;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .zf{
+            width: 140px;
+            height: 140px;
+            border: 1px solid #999;
+            background-color: #909;
+        }
+        .sj{
+            width: 0;
+            height: 0;
+            border-right: 70px solid transparent;
+            border-left:70px solid transparent;
+            border-bottom: 140px solid red;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="u1">
+        <ul class="u3">
+            <li class="dd"><span>区块标题</span>
+                <p> </p>
+            </li>
+            <li class="dd"><span>一级标题 </span> <i class="tip1"> </i></li>
+            <input type="hidden" value="0" class="n0">
+            <ul class="u22">
+                <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                <li><span>二级标题</span> <b> 弹窗 </b></li>
+            </ul>
+            <ul class="u23">
+                <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                <li><span>二级标题</span> <b> 弹窗 </b></li>
+            </ul>
+            <div class="log_fill log1 "><span>查看剩余二级标题</span> <i> </i></div>
+            <li><span>一级标题</span> <i class="tip1"> </i></li>
+            <input type="hidden" value="1" class="n0">
+            <ul class="u22">
+                <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                <li><span>二级标题</span> <b> 弹窗 </b></li>
+            </ul>
+            <ul class="u23">
+                <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                <li><span>二级标题</span> <b> 弹窗 </b></li>
+            </ul>
+            <div class="log_fill log1 "><span>查看剩余二级标题</span> <i> </i></div>
+            <ul class="u2">
+                <li><span>一级标题</span> <i class="tip1"> </i></li>
+                <input type="hidden" value="2" class="n0">
+                <ul class="u22">
+                    <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                    <li><span>二级标题</span> <b> 弹窗 </b></li>
+                </ul>
+                <ul class="u23">
+                    <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                    <li><span>二级标题</span> <b> 弹窗 </b></li>
+                </ul>
+                <div class="log_fill log1 "><span>查看剩余二级标题</span> <i> </i></div>
+                <li><span>一级标题</span> <i class="tip1"> </i></li>
+                <input type="hidden" value="3" class="n0">
+                <ul class="u22">
+                    <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                    <li><span>二级标题</span> <b> 弹窗 </b></li>
+                </ul>
+                <ul class="u23">
+                    <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                    <li><span>二级标题</span> <b> 弹窗 </b></li>
+                </ul>
+                <div class="log_fill log1 "><span>查看剩余二级标题</span> <i> </i></div>
+                <li><span>一级标题</span> <i class="tip1"> </i></li>
+                <input type="hidden" value="4" class="n0">
+                <ul class="u22">
+                    <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                    <li><span>二级标题</span> <b> 弹窗 </b></li>
+                </ul>
+                <ul class="u23">
+                    <li><span>二级标题 </span> <b> 弹窗 </b></li>
+                    <li><span>二级标题</span> <b> 弹窗 </b></li>
+                </ul>
+                <div class="log_fill log1 "><span>查看剩余二级标题</span> <i> </i></div>
+            </ul>
+            <div class="log log_fill"><span>查看剩余标题</span> <i> </i></div>
+        </ul>
+        <div id="tan">
+            <p>
+                <span class="qq">0</span>
+                -
+                <span class="qq1">0</span>
+            </p>
+        </div>
+
+
+
+    </div>
+
+    <div class="yx">
+        <div class="zf">
+            <div class="sj">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script>
+        var flag = true;
+        var flag1 = true;
+        var flag2 = true;
+        $('.log span').click(function (e) {
+            e.preventDefault();
+            // $(".u2").toggle(1000);
+            $(".u2").slideToggle(1000, function () {
+                
+                if (flag1) {
+                    console.log(1)
+                    $(".log span").html("隐藏标题");
+                    $(".log i").css('transform', 'rotate(315deg)')
+                    flag1 = false;
+                } else {
+                    $(".log span").html("查看剩余标题");
+                    $(".log i").css('transform', 'rotate(130deg)')
+                    flag1 = true;
+                }
+            });
+        });
+        $('.log1 span').click(function (e) {
+            //console.log($(this).parent().prev())
+            $(this).parent().prev().slideToggle(1000, function () {
+                if (flag) {
+                    $(".log1 span").html("隐藏二级标题");
+                    flag = false;
+                } else {
+                    $(".log1 span").html("查看剩余二级标题");
+                    flag = true;
+                }
+            });
+        });
+        $('.tip1').click(function (e) {
+            // $(this).one(function(){
+            //     flag2=true;
+            // })
+            e.preventDefault();
+            var _this=$(this);
+            $(this).parent().next().next().next().next().slideToggle(1000);
+            $(this).parent().next().next().slideToggle(1000,function(){
+                if(flag2){
+                    _this.css('transform', 'rotate(315deg)')
+                    flag2 = false;
+                }else{
+                    _this.css('transform', 'rotate(130deg)');
+                    flag2 = true;
+                }
+            });
+           
+        });
+        $("b").click(function (e) {
+            e.stopPropagation();
+            $('#tan').toggle();
+             console.log($(this).parent().parent().prev().val());
+            let num =$(this).parent().parent().prev().val();
+            let num1=$(this).parent().index();
+            let fu=$(this).parent().parent().attr('class');
+            if(fu =="u23"){
+                num =$(this).parent().parent().prev().prev().val();
+                num1 += 2;
+            }
+            // console.log(num)
+           $('.qq').html(num);
+           $('.qq1').html(num1);
+        })
+        $(document).click(function(){
+            $('#tan').hide();
+        })
+        
+    </script>
+</body>
+
+</html>
